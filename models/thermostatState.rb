@@ -5,6 +5,6 @@ class ThermostatState
   property :id, Serial
   property :temperature, Integer
   property :PSM, String
-  property :city, Text
+  property :city, String
 
 end

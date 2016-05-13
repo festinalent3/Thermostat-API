@@ -15,5 +15,10 @@ describe ThermostatState do
   it 'saves a city' do
     expect(state.city).to eq('Stockholm')
   end
-  
+
+  it 'can update temperature' do
+    state.setTemperature(30)
+    expect(state.temperature).to eq(30)
+  end
+
 end

@@ -1,6 +1,6 @@
 require 'data_mapper'
-require 'data_mapper_setup'
-require 'app.rb'
+require_relative 'data_mapper_setup'
+require_relative 'app.rb'
 
 
 namespace :db do
